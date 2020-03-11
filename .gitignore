@@ -54,7 +54,7 @@ gen### Java template
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.ear
 

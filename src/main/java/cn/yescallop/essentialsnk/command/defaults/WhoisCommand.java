@@ -53,7 +53,7 @@ public class WhoisCommand extends CommandBase {
         } else if (sender.hasPermission("essentialsnk.whois.other")) {
             try {
                 if (UUID_PATTERN.matcher(args[0]).matches()) {
-                    player = sender.getServer().getOfflinePlayer(UUID.fromString(args[0]));
+                    player = sender.getServer().getOfflinePlayer(args[0]);
                 } else {
                     player = sender.getServer().getOfflinePlayer(args[0]);
                 }
