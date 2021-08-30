@@ -52,8 +52,8 @@ public class WhoisCommand extends CommandBase {
             player = (Player) sender;
         } else if (sender.hasPermission("essentialsnk.whois.other")) {
             try {
-                if (UUID_PATTERN.matcher(args[0]).matches()) {
-                    player = sender.getServer().getOfflinePlayer(args[0]);
+                if (sender.getServer().savePlayerDataByUuid && UUID_PATTERN.matcher(args[0]).matches()) {
+                    player = sender.getServer().getOfflinePlayer(UUID.fromString(args[0]));
                 } else {
                     player = sender.getServer().getOfflinePlayer(args[0]);
                 }

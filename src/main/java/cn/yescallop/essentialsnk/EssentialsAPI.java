@@ -412,7 +412,8 @@ public class EssentialsAPI {
     }
 
     private void checkAndUpdateLegacyHomes(UUID uuid) {
-        /*IPlayer player = getServer().getOfflinePlayer(uuid);
+        if (!getServer().savePlayerDataByUuid) return;
+        IPlayer player = getServer().getOfflinePlayer(uuid);
         if (player == null) {
             return;
         }
@@ -431,7 +432,7 @@ public class EssentialsAPI {
             } else {
                 this.configs.set(this.homeConfig, uuidString, this.configs.get(this.homeConfig, name, new ConfigSection()));
             }
-        }*/
+        }
     }
 
     public boolean setWarp(String name, Location pos) {
@@ -588,7 +589,8 @@ public class EssentialsAPI {
     }
 
     private void checkAndUpdateLegacyMute(UUID uuid) {
-        /*IPlayer player = getServer().getOfflinePlayer(uuid);
+        if (!getServer().savePlayerDataByUuid) return;
+        IPlayer player = getServer().getOfflinePlayer(uuid);
         if (player == null) {
             return;
         }
@@ -607,7 +609,7 @@ public class EssentialsAPI {
             } else {
                 this.configs.set(this.muteConfig, uuidString, this.configs.get(this.muteConfig, name, new ConfigSection()));
             }
-        }*/
+        }
     }
 
     // Scallop: Thanks lmlstarqaq

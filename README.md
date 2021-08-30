@@ -1,6 +1,4 @@
 # EssentialsNK
-Essentials plugin for Nukkit
+Essentials plugin for [Nukkit PetteriM1 Edition](https://github.com/PetteriM1/NukkitPetteriM1Edition)
 
-Contributions are welcome!
-
-__[Download Page](https://nukkitx.com/resources/essentialsnk.15/)__
+__[Download](https://github.com/PetteriM1/EssentialsNK/releases)__
