@@ -1,8 +1,8 @@
-name: EssentialsNK
+name: ${project.name}
 version: ${project.version}
 api: ["9.9.9"]
 author: Scallop
-description: EssentialsNK
+description: ${project.description}
 main: cn.yescallop.essentialsnk.EssentialsNK
 
 permissions:

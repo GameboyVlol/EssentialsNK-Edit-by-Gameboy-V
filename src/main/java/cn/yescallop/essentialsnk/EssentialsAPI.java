@@ -339,7 +339,7 @@ public class EssentialsAPI {
         Map<String, Object> map = getHomeMap(uuid, true);
 
         boolean replaced = map.containsKey(name);
-        List home = Arrays.asList(location.level.getName(), location.x, location.y, location.z, location.yaw, location.pitch);
+        List home = Arrays.asList(location.level.getFolderName(), location.x, location.y, location.z, location.yaw, location.pitch);
         map.put(name, home);
         return replaced;
     }

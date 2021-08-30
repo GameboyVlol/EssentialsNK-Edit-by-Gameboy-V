@@ -4,9 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.yescallop.essentialsnk</groupId>
     <artifactId>EssentialsNK</artifactId>
-    <version>1.9.1-PM1E</version>
+    <version>1.9.2-PM1E.1</version>
 
     <name>EssentialsNK</name>
+    <description>Essential commands for your server</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
