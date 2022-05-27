@@ -7,7 +7,7 @@ main: cn.yescallop.essentialsnk.EssentialsNK
 
 permissions:
   essentialsnk.back:
-    default: true
+    default: op
   essentialsnk.break:
     default: op
   essentialsnk.break.bedrock:
@@ -21,7 +21,7 @@ permissions:
   essentialsnk.clearinventory.others:
     default: op
   essentialsnk.compass:
-    default: true
+    default: op
   essentialsnk.delhome:
     default: true
   essentialsnk.delwarp:
@@ -45,7 +45,7 @@ permissions:
   essentialsnk.gamemode.others:
     default: op
   essentialsnk.getpos:
-    default: true
+    default: op
   essentialsnk.getpos.others:
     default: op
   essentialsnk.heal:
